@@ -34,7 +34,7 @@ code {
 .project-type{
   display: flex;
   justify-content: space-around;
-  margin: auto;
+  margin: 20px auto;
 }
 
 .contact-form{
@@ -71,6 +71,7 @@ code {
   display: flex;
   margin: 0 auto;
   justify-content: center;
+  color: white;
 }
 
 .footer-link{

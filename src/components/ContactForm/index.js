@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
-import background from '../../assets/cover/florian.jpg'
+import background from '../../assets/cover/florian.jpg';
 
 function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', message: ' '});

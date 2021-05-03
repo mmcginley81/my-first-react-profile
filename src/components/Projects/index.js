@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
 import PhotoList from '../PhotoList';
+import background from '../../assets/cover/florian.jpg';
 
 
 
@@ -10,7 +10,9 @@ function Projects() {
   const [currentCategory, setCurrentCategory] = useState('front-end');
 
   return (
-    <section className="album py-5 bg-light">
+    <>
+      <h1 id="about">Projects</h1>
+      <div style={{ backgroundImage: `url(${background})`}} className="background">
       <div className="project-type">
         
         <button className="btn btn-success" onClick={()=>setCurrentCategory('front-end')} >Front End</button>
@@ -24,8 +26,8 @@ function Projects() {
         
         <PhotoList category={currentCategory} />
       
-
-    </section>
+      </div>
+    </>
   )
 }
  

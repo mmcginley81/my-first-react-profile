@@ -5,6 +5,7 @@ import Projects from '../Projects';
 import GitHubIcon from '../../assets/svg/github.svg';
 import LinkedInIcon from '../../assets/svg/linkedin.svg';
 import InstagramIcon from '../../assets/svg/instagram.svg';
+import background from '../../assets/cover/florian.jpg';
 
 
 
@@ -25,6 +26,7 @@ function Page({ currentPage }){
     return(
 
         <section>
+            <div style={{ backgroundImage: `url(${background})`}} className="background">
             <div>{renderPage()}</div>
             <footer class="footer" id="contact-me">
         <h4>Let's Connect</h4>
@@ -61,7 +63,8 @@ function Page({ currentPage }){
                 </li>
         </ul>
     
-    </footer>
+            </footer>
+        </div>
         </section>
     )
 
