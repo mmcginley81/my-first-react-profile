@@ -1,0 +1,13 @@
+.background{
+    min-height: 1000px;
+    margin-bottom: 200px;
+}
+
+#about { background-color: blue; }
+
+.about-card{
+    max-width: 50%;
+    align-content: center;
+    align-self: auto;
+    margin: 0 auto;
+}
