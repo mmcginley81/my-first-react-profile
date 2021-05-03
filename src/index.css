@@ -41,7 +41,11 @@ code {
   display: flex;
   justify-content: center;
   max-width: 600px;
-  
+  margin: 0 auto;
+}
+
+.card .contact-form {
+  margin-top: 10px;
 }
 
 .flex-row{
@@ -52,4 +56,34 @@ code {
 .trying {
   display: flex;
   justify-items: center;
+}
+
+.social-links{
+  display: flex;
+  margin: 0 auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.footer h4{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.footer-link{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.btn-footer{
+  margin-top: 1em;
+  background-color: lightgreen;
+}
+
+.social-list-link {
+  color: black;
 }

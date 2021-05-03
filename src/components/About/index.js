@@ -11,7 +11,7 @@ function About() {
             <h1 id="about">About Me</h1>
             <div className="card about-card">
             <h2 id="about-section"> Designer, developer, project manager based out of LA</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <p>A highly motivated and committed young professional pursuing a career in web development. Sharp, creative, and prepared for the challenges of the quickly changing communications landscape. 
 
             </p>
             </div>

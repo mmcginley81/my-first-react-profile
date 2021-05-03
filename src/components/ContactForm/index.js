@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
-
+import background from '../../assets/cover/florian.jpg'
 
 function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', message: ' '});
@@ -36,6 +36,7 @@ function ContactForm() {
     }
 
     return (
+      <div style={{ backgroundImage: `url(${background})`}} className="background">
         <section className="card contact-form">
           
           <h1>Contact me</h1>
@@ -60,6 +61,7 @@ function ContactForm() {
             <button className="btn" type="submit">Submit</button>
           </form>
         </section>
+        </div>
         );
 }
 

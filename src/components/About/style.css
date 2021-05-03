@@ -1,9 +1,12 @@
 .background{
     min-height: 1000px;
-    margin-bottom: 200px;
 }
 
-#about { background-color: blue; }
+#about { 
+    background-color: blue;
+    margin: auto 0;
+    color: white;
+ }
 
 .about-card{
     max-width: 50%;

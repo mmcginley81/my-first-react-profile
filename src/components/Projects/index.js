@@ -13,11 +13,11 @@ function Projects() {
     <section className="album py-5 bg-light">
       <div className="project-type">
         
-        <button className="btn is-primary" onClick={()=>setCurrentCategory('front-end')} >Front End</button>
+        <button className="btn btn-success" onClick={()=>setCurrentCategory('front-end')} >Front End</button>
 
-        <button className="btn is-primary" onClick={()=>setCurrentCategory('fullstack')}>Full Stack</button>
+        <button className="btn btn-success" onClick={()=>setCurrentCategory('fullstack')}>Full Stack</button>
 
-        <button className="btn is-primary" onClick={()=>setCurrentCategory('back-end')}>Back End</button>
+        <button className="btn btn-success" onClick={()=>setCurrentCategory('back-end')}>Back End</button>
 
       </div>
       
