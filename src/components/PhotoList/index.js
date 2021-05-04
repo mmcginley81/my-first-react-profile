@@ -61,17 +61,17 @@ function PhotoList({ category, name, description, link }) {
     const currentPhotos = photos.filter((photo) => photo.category === category);
     
     return (
-        <>
+        <div className="row">
             {currentPhotos.map((image, i) => {
                 return ( 
-                <div>
+                
                 <div className="col-md-4">
                     
                 <ImageCard image={image} category={category}  i={i} link={link} />
                 </div> 
-                </div>);
+                );
             })}           
-         </>   
+         </div>   
 
     )
 }
