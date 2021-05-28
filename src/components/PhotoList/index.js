@@ -13,9 +13,10 @@ function PhotoList({ category, name, description, link }) {
             link: 'https://github.com/es2013/entertainment-roulette'
         },
         {
-            name: 'Second Project',
+            name: 'Name',
             category: 'front-end',
-            description: 'This is the description of my second project'
+            description: '',
+            link: 'https://aqueous-ravine-21421.herokuapp.com/'
         },
         {
             name: 'Third Project',
@@ -29,9 +30,10 @@ function PhotoList({ category, name, description, link }) {
             link: 'https://github.com/mmcginley81/ecommerce-mock'
         },
         {
-            name: 'Fifth Project',
+            name: 'Zoo Keepr',
             category: 'back-end',
-            description: 'This is the description of my Fifth project'
+            description: 'Zoo Keepr was my initial project learning Express.js and Node.js',
+            link: 'https://github.com/mmcginley81/zookeepr'
         },
         {
             name: 'Sixth Project',
@@ -42,11 +44,6 @@ function PhotoList({ category, name, description, link }) {
             name: 'Seventh Project',
             category: 'back-end',
             description: 'This is the description of my seventh project'
-        },
-        {
-            name: 'Eighth Project',
-            category: 'back-end',
-            description: 'This is the description of my eighth project'
         },
         {
             name: 'Basketblog',
